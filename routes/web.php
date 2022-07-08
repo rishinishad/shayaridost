@@ -23,7 +23,7 @@ Route::get('/index', [IndexController::class , 'show']);
 // Route::get('/joke', [JokeController::class , 'joke']);
 Route::get('/morning', "MorningController@morning");
 Route::get('/night', "NightController@night");
-Route::get('/others', "OtherController@other");
+Route::get('/attitude', "AttitudeController@attitude");
 Route::get('/sad', "SadController@sad");
 Route::get('/bewafa', "BewafaController@bewafa");
 Route::get('/comedy', "ComedyController@comedy");

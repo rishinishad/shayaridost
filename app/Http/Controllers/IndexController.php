@@ -13,7 +13,7 @@ class IndexController extends Controller
             'category_id',
             'shayari'
         ])
-        ->paginate(5);
+        ->paginate(8);
         // ->get();
         
         return view('index',['shayaris'=>$shayaris]);

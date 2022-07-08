@@ -12,7 +12,7 @@ class BewafaController extends Controller
         $bewafa = Shayari::select([
             'shayari'
         ])->where('category_id',5)
-        ->paginate(5);
+        ->paginate(8);
         return view('index', ['shayaris'=>$bewafa]);
     }
 }

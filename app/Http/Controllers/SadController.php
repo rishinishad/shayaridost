@@ -12,7 +12,7 @@ class SadController extends Controller
         $sad = Shayari::select([
             'shayari'
         ])->where('category_id',4)
-        ->paginate(5);
+        ->paginate(8);
         return view('index', ['shayaris'=>$sad]);
     }
 }
