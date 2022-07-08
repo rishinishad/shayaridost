@@ -11,7 +11,7 @@ class MorningController extends Controller
         $mornings = Shayari::select([
             'shayari'
         ])->where('category_id',1)
-        ->paginate(5);
+        ->paginate(8);
         return view('index', ['shayaris'=>$mornings]);
     }
 }

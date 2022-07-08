@@ -12,7 +12,7 @@ class NightController extends Controller
         $nights = Shayari::select([
             'shayari'
         ])->where('category_id',2)
-        ->paginate(5);
+        ->paginate(8);
         return view('index', ['shayaris'=>$nights]);
     }
 }

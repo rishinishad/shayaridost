@@ -12,7 +12,7 @@ class VegController extends Controller
         $jokes = Joke::select([
             'joke'
         ])->where('category_id',8)
-        ->paginate(5);
+        ->paginate(8);
         
         return view('joke',['jokes'=>$jokes]);
        
