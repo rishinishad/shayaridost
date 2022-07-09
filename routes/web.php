@@ -18,8 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/index', [IndexController::class , 'show']);
+Route::get('/', "IndexController@show");
+Route::get('/shayari', [IndexController::class , 'show']);
 // Route::get('/joke', [JokeController::class , 'joke']);
 Route::get('/morning', "MorningController@morning");
 Route::get('/night', "NightController@night");
