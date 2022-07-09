@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', "IndexController@show");
+Route::get('/', "IndexController@welcome");
 Route::get('/shayari', [IndexController::class , 'show']);
 // Route::get('/joke', [JokeController::class , 'joke']);
 Route::get('/morning', "MorningController@morning");

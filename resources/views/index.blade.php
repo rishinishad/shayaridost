@@ -72,7 +72,7 @@
         <input class="form-control" id="myInput" type="text" placeholder="Search..">
         <br>
         <ul class="list-group" id="myList">
-          <li><a href="/index">All</a></li>
+          <li><a href="/shayari">All</a></li>
           {{-- @csrf --}}
           <li><a href="/morning">Good Morning</a></li>
           <li><a href="/night">Good Night</a></li>

@@ -33,7 +33,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="/shayari" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>ShayariDost</a>
+  <a href="/" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>ShayariDost</a>
   <a href="/shayari" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Shayari">Shayari</a>
   <a href="/joke" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Jokes">Jokes</a>
   {{-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a> --}}
@@ -41,8 +41,8 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 </div>
 
 <!-- Navbar on small screens -->
-<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large" style="margin-top: 45px">
+  {{-- <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a> --}}
   <a href="/shayari" class="w3-bar-item w3-button w3-padding-large">Shayari</a>
   <a href="/joke" class="w3-bar-item w3-button w3-padding-large">Jokes</a>
   {{-- <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a> --}}

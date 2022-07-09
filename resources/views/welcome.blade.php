@@ -51,7 +51,7 @@
                 </div>
             @endif
             <div class="jumbotron text-center" style="text-align: center">
-            <h1 style="color: red">Shayari Dost</h1>
+            {{-- <h1 class="bg-danger">ShayariDost</h1> --}}
               
             <a href="/shayari">
               <button type="button" class="btn btn-primary btn-lg">Shayari</button>
@@ -71,7 +71,7 @@
 @section('content')
 <title>Shayari</title>
 <!-- Page Container -->
-<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+<div class="w3-container w3-content" style="max-width:1400px">    
   <!-- The Grid -->
   <h3 style="text-align: center">Shayari</h3>
   <div class="w3-row">
@@ -141,7 +141,7 @@
         <input class="form-control" id="myInput" type="text" placeholder="Search..">
         <br>
         <ul class="list-group" id="myList">
-          <li><a href="/index">All</a></li>
+          <li><a href="/shayari">All</a></li>
           {{-- @csrf --}}
           <li><a href="/morning">Good Morning</a></li>
           <li><a href="/night">Good Night</a></li>
